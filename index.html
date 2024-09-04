@@ -5,14 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
     <script src="scriptLoader.js"></script>
     <title>Desafio Target</title>
 </head>
 
 <body>
-    <button onclick="loadScript('script.js')">Exercício 1</button>
-    <button onclick="loadScript('script1.js')">Exercício 2</button>
-    <button onclick="loadScript('script2.js')">Exercício 3</button>
+    <div class="header-container">
+        <img src="logo.png" alt="Logo" class="logo">
+        <div class="buttons-wrapper">
+            <div class="button-container">
+                <button onclick="loadScript('script.js')">Exercício 1</button>
+                <button onclick="loadScript('script1.js')">Exercício 2</button>
+                <button onclick="loadScript('script2.js')">Exercício 3</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
